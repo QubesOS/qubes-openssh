@@ -1,0 +1,12 @@
+host:
+  rpm:
+    build:
+    - openssh.spec
+source:
+  files:
+  - url: https://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/openssh-@VERSION@p1.tar.gz
+    signature: https://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/openssh-@VERSION@p1.tar.gz.asc
+    pubkeys:
+    - gpgkey-736060BA.gpg
+  - url: https://github.com/jbeverly/pam_ssh_agent_auth/archive/pam_ssh_agent_auth-0.10.4.tar.gz
+    sha512: pam_ssh_agent_auth-0.10.4.tar.gz.sha512

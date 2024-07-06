@@ -1,0 +1,4 @@
+pkgs/
+openssh-*.tar.gz
+openssh-*.tar.gz.asc
+pam_ssh_agent_auth-0.10.4.tar.gz
