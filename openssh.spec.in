@@ -287,14 +287,14 @@ BuildRequires: gnupg2
 %package clients
 Summary: An open source SSH client applications
 Requires: openssh = %{version}-%{release}
-Requires: crypto-policies >= 20220824-1
+Requires: crypto-policies >= 20220815-1
 
 %package server
 Summary: An open source SSH server daemon
 Requires: openssh = %{version}-%{release}
 Requires(pre): /usr/sbin/useradd
 Requires: pam >= 1.0.1-3
-Requires: crypto-policies >= 20220824-1
+Requires: crypto-policies >= 20220815-1
 %{?systemd_requires}
 
 %package keycat
